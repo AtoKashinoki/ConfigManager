@@ -5,7 +5,7 @@ This file contain functions to write and read.
 """
 
 # import config class
-from .main import Config
+from .config import Config
 
 
 """ setting """

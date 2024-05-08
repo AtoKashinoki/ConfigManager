@@ -21,7 +21,7 @@ if not __name__ == __self_name__:
 
 
 try:
-    from .main import Config
+    from .config import Config
     ...
 except ImportError as message:
     Config = ImportError(message)
