@@ -10,8 +10,8 @@ This module introduces config management classes and functions.
 
 ## Developed
  - [ ] \_\_init__.py
- - [ ] main.py
-   - [ ] Config class
+ - [x] main.py
+   - [x] Config class
  - [x] file.py
    - [x] write function
    - [x] read function
