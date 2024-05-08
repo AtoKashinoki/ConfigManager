@@ -9,7 +9,7 @@ This module introduces config management classes and functions.
 
 
 ## Developed
- - [ ] \_\_init__.py
+ - [x] \_\_init__.py
  - [x] main.py
    - [x] Config class
  - [x] file.py

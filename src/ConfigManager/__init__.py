@@ -17,4 +17,23 @@ if not __name__ == __self_name__:
     sys.exit()
 
 
+""" Import self """
+
+
+try:
+    from .main import Config
+    ...
+except ImportError as message:
+    Config = ImportError(message)
+    ...
+
+
+try:
+    from . import file
+    ...
+except ImportError as message:
+    file = ImportError(message)
+    ...
+
+
 print("Initialize {}.".format(__self_name__))
